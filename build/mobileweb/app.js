@@ -20,7 +20,7 @@ var portrait = Ti.UI.createImageView ({
 
 var myTitle = Ti.UI.createLabel({
 	color: 'black',
-	text: '<b>Job:</b> IT Support',
+	text: 'Job: IT Support',
 	textAlignment: 'left',
 	font: {fontSize: 15},
 	top: place,
@@ -29,7 +29,7 @@ var myTitle = Ti.UI.createLabel({
 
 var major = Ti.UI.createLabel({
 	color: 'black',
-	text: '<b>Major:</b> Information Systems',
+	text: 'Major: Information Systems',
 	textAlignment: 'left',
 	font: {fontSize: 15},
 	top: place+20,
@@ -38,7 +38,7 @@ var major = Ti.UI.createLabel({
 
 var cell = Ti.UI.createLabel({
 	color: 'black',
-	text: '<b>Cell:</b> (208) 290-1672',
+	text: 'Cell: (208) 290-1672',
 	textAlignment: 'left',
 	font: {fontSize: 15},
 	top: place+40,
@@ -47,7 +47,7 @@ var cell = Ti.UI.createLabel({
 
 var email = Ti.UI.createLabel({
 	color:'black',
-	text: '<b>Email:</b> asc3ticwils0n@gmail.com',
+	text: 'Email: asc3ticwils0n@gmail.com',
 	textAlignment: 'left',
 	font: {fontSize: 15},
 	top: place+60,

@@ -1,5 +1,5 @@
 var place = 300;
-var lplace = 100;
+var lplace = 150;
 var landing = Ti.UI.createWindow ({
 	backgroundImage: 'Frontpage.jpg',
 	//layout: 'vertical'
@@ -20,37 +20,37 @@ var portrait = Ti.UI.createImageView ({
 
 var myTitle = Ti.UI.createLabel({
 	color: 'black',
-	text: '<b>Job:</b> IT Support',
+	text: 'Job: IT Support',
 	textAlignment: 'left',
-	font: {fontSize: 15},
+	font: {fontSize: 30},
 	top: place,
 	left: lplace
 });
 
 var major = Ti.UI.createLabel({
 	color: 'black',
-	text: '<b>Major:</b> Information Systems',
+	text: 'Major: Information Systems',
 	textAlignment: 'left',
-	font: {fontSize: 15},
-	top: place+20,
+	font: {fontSize: 30},
+	top: place+30,
 	left: lplace
 });
 
 var cell = Ti.UI.createLabel({
 	color: 'black',
-	text: '<b>Cell:</b> (208) 290-1672',
+	text: 'Cell: (208) 290-1672',
 	textAlignment: 'left',
-	font: {fontSize: 15},
-	top: place+40,
+	font: {fontSize: 30},
+	top: place+60,
 	left: lplace
 });
 
 var email = Ti.UI.createLabel({
 	color:'black',
-	text: '<b>Email:</b> asc3ticwils0n@gmail.com',
+	text: 'Email: asc3ticwils0n@gmail.com',
 	textAlignment: 'left',
-	font: {fontSize: 15},
-	top: place+60,
+	font: {fontSize: 30},
+	top: place+90,
 	left: lplace
 });
 
